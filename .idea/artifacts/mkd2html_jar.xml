@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mkd2html:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mkd2html_jar</output-path>
+    <root id="archive" name="mkd2html.jar">
+      <element id="module-output" name="mkd2html" />
+    </root>
+  </artifact>
+</component>
