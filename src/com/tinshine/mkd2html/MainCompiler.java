@@ -8,7 +8,8 @@ public class MainCompiler {
         ElemType type = new ElemType();
         for (int i = 0; i < lines.length; i++) {
             String line = lines[i];
-            if (line == null || line.length() == 0) continue;
+            if (line == null || line.length() == 0)
+                continue;
             switch (type.checkType(line)) {
                 case ElemType.TITLE:
                     HtmlElem title = new Title();
